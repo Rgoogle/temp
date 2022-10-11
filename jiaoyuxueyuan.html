@@ -1,0 +1,768 @@
+<html>
+	<head>
+		<title>教育学院</title>
+		<meta charset="UTF-8">
+		<style>
+			.div1{
+				background:#00627d;
+				height:110px;
+				width: 100%;
+				text-align: center;
+
+			}
+			.div2{
+				display: inline-block;
+				height: 110px;
+				margin: 0 auto;
+			}
+
+
+			.div3{ 
+				display: inline-block;
+
+				height: 110px;
+			}
+
+
+			.div4{/* div4 内容水平居中 */
+				text-align: center;
+
+			}
+			.div5{/* div5 内容水平居中 */
+				text-align: center;
+				background-color: #f8f8f8;
+			}
+ 
+			.tittleFont{ /*字体颜色是白色*/
+				color: white;
+					
+			}
+			.tittleFont:hover{ /*鼠标移动到的文字 自动变红色*/
+				color: red;
+			}
+			
+
+			.liNum{
+				border-width: 0px;/*边框为0*/
+				
+				
+				/*border: -13px solid #999;*/
+				margin-right: 4px;/*右外边框为4*/
+				font-size: 10px; /*字体的大小为10px 会导致 li的高也变了*/
+				width: 12px; /*li的宽度为10px*/
+				background-color: white; /*li 的背景是白色*/
+				float: left;/*从左边浮动的排*/
+			}
+
+			.liNum:hover{/*鼠标移动到 1 li标签变红色*/
+				background-color: #FFE1E1;
+				color: red;
+				cursor:pointer/*鼠标 变成手的 样子*/
+
+
+			}
+
+			.liNews{
+				width: 340px;
+				height: 36px;
+				line-height: 36px;
+				margin-bottom: 16px;
+
+			}
+
+
+
+			.liNumBottom{
+				border-width: 0px;/*边框为0*/
+
+				color: white;
+
+				margin-right: 4px;/*右外边框为4*/
+				font-size: 12px; /*字体的大小为10px 会导致 li的高也变了*/
+				width: 18px; /*li的宽度为10px*/
+				height: 18px;
+				background-color: black; /*li 的背景是白色*/
+				float: left;/*从左边浮动的排*/
+			}
+			.liNumBottom:hover{
+				background-color: #1c9da2;
+			}
+
+
+			body{
+				margin: 0px;
+				
+			}
+			a{	/*去掉a 标签的下划线*/
+				text-decoration-line: none;
+
+			}
+
+			
+		</style>
+
+
+
+
+	</head>
+
+	<body>
+		<!--第一部分 首航文字-->
+		<div class="div1">
+				<div class="div2">	
+					<a href="https://jjxy.jju.edu.cn/index.htm">
+					<img src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181025150109118104.png">
+					</a>
+					&nbsp&nbsp&nbsp&nbsp&nbsp
+					<div class="div3">
+						<table >
+							
+							<tr style="height: 110px;">
+									<td >
+
+										<a href="https://jjxy.jju.edu.cn/index.htm"><span class="tittleFont">首页</span>
+										</a>
+										<span style="color: rgb(102, 102, 102);">&nbsp&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp</span>
+
+									</td>
+									<td>
+										<a href="https://jjxy.jju.edu.cn/xygk1.htm">
+										<span class="tittleFont">学校概况</span>
+										</a>
+										<span style="color: rgb(102, 102, 102);">&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp</span>
+										
+									</td>
+									<td>
+										<a href="https://jjxy.jju.edu.cn/dqgz.htm">
+										<span class="tittleFont">党群工作</span>
+										</a>
+										<span style="color: rgb(102, 102, 102);">&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp</span>
+										
+									</td>
+									<td>
+										<a href="https://jjxy.jju.edu.cn/gzzd.htm">
+										<span class="tittleFont">规章制度</span>
+										</a>
+										<span style="color: rgb(102, 102, 102);">&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp</span>
+										
+									</td>
+									<td>
+										<a href="https://jjxy.jju.edu.cn/xljy.htm">
+										<span class="tittleFont">学历教育</span>
+										<span style="color: rgb(102, 102, 102);">&nbsp |&nbsp&nbsp&nbsp</span>
+										</a>
+									</td>
+									<td>
+										<a href="https://jjxy.jju.edu.cn/pxjy.htm">
+										<span class="tittleFont">培训教育</span>
+										</a>
+										<span style="color: rgb(102, 102, 102);">&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp</span>
+										
+									</td>
+
+									<td>
+										<a href="https://jjxy.jju.edu.cn/lxwm.htm">
+										<span class="tittleFont">联系我们</span>
+										</a>
+										<span style="color: rgb(102, 102, 102);">&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp</span>
+										
+									</td>
+									<td>
+										<a href="http://jjxy.web2.superchutou.com/#/login">
+										<span class="tittleFont">学习平台</span>
+										</a>
+									</td>
+						</tr>
+						</table>
+					</div>
+				</div>
+		</div>
+
+		<!--第二部分 图片会转的部分-->
+		<div class="div4">
+			<img id="img1" src="https://jjxy.jju.edu.cn/images/eec9111783cc27c8e7e5698ebc97de42_banner_100.jpg" width="1200" height="320">
+			<img id="img2" src="https://jjxy.jju.edu.cn/images/xfaq.jpg" style="display: none;" width="1200" height="320">
+			<img id="img3" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181025173902772846.jpg" style="display: none; " width="1200" height="320">
+			<img id="img4" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181025173911887986.jpg" style="display: none;" width="1200" height="320">
+		<ul style="list-style: none; display: block; position: absolute; right: 180px; bottom: 350px;">
+			<li id="li1" class="liNum" >1</li>
+			<li id="li2" class="liNum" >2</li>
+			<li id="li3" class="liNum" >3</li>
+			<li id="li4" class="liNum" >4</li>
+		</ul>
+		</div>
+
+
+
+		<!--第三部分 内容工作部分-->
+		<div class="div5" style="padding-top: 20px;height: 570px; margin-top: 20px;" >
+			<div style="display: inline-block; float: left; padding-left: 100px; width: 890px;">
+
+				<div style="width: 850px;height: 81px; border-bottom: #e2dcdc 1px solid;">
+					<div class="div6" style="display:inline-block;padding-top: 40px; float: left;">
+						<div style="text-align: left;">
+							<!--包含文字-->
+							<div style="display: inline-block;"><a href="https://jjxy.jju.edu.cn/news/category-3.html" style="color:black; font-size: 18px">学院新闻</a></div>
+							<div style="display: inline-block;color: #c0c0c0;font-size: 14px;">NEWS</div>
+
+						</div>
+
+						<!--上为上部分 下为下部分-->
+					</div>
+					<div style="display: inline-block;color: #c0c0c0;font-size: 14px; float: right; margin-top: 40px;">MORE+</div>
+				</div>
+
+
+
+					<div style="padding-top: 30px; width: 850px; height: 298px;">
+						<!--新闻部分-->
+						<div style="display:inline-block;">
+							<div style="display: inline-block ; float: left;">
+								<img id="img5" width="400" height="260" src="https://jjxy.jju.edu.cn/__local/1/DD/F5/16341DA33F6E11092E5168B2EA4_40AE0079_16E66.jpg">
+								<img id="img6" style="display: none;" width="400" height="260" src="https://jjxy.jju.edu.cn/__local/D/9C/67/A37E00D647942DEAFB3DDDCE053_6CA8AB24_25824.jpg">
+								<img id="img7" style="display: none;" width="400" height="260" src="https://jjxy.jju.edu.cn/__local/B/5B/92/C241BB9D6C83C33D4DB56431EC0_A42A4085_13FB5.jpg">
+								<img id="img8" style="display: none;" width="400" height="260" src="https://jjxy.jju.edu.cn/__local/7/13/CE/508FFA74852FBA73C1232615F9F_4C76EE40_14D5F.jpg">
+								<img id="img9" style="display: none;" width="400" height="260" src="https://jjxy.jju.edu.cn/__local/5/23/CC/347C7756A75D2A10CB39E19A731_59904422_15057.jpg">
+								<ul style="list-style: none; display: block; position: absolute; left:345px; bottom: -80px;">
+									<li id="li5" class="liNumBottom" >1</li>
+									<li id="li6" class="liNumBottom" >2</li>
+									<li id="li7" class="liNumBottom" >3</li>
+									<li id="li8" class="liNumBottom" >4</li>
+									<li id="li9" class="liNumBottom" >5</li>
+								</ul>
+
+
+							</div>
+
+							<div style="display: inline-block ;text-align: left;float: right; width: 440px;">
+								<ul style="list-style: none; margin: 0px; padding-left: 20px;">
+									<li class="liNews"><a href="https://jjxy.jju.edu.cn/info/1008/1957.htm" style="color: #333;">继续教育学院组织开展政治理论学习</a><span style="display: block;position: absolute; right: 570px; bottom: 145px;">9-22</span></li>
+									<li class="liNews"><a href="https://jjxy.jju.edu.cn/info/1008/1949.htm" style="color: #333;">继续教育学院组织教职工观看《足迹》</a><span style="display: block;position: absolute; right: 570px; bottom: 92px;">9-22</span></li>
+									<li class="liNews"><a href="https://jjxy.jju.edu.cn/info/1008/1948.htm" style="color: #333;">我院积极开展网络安全教育 </a><span style="display: block;position: absolute; right: 570px; bottom: 41px;">9-22</span></li>
+									<li class="liNews"><a href="https://jjxy.jju.edu.cn/info/1008/1947.htm" style="color: #333;">继续教育学院组织全体教职工政治理论学习 </a><span style="display: block;position: absolute; right: 570px; bottom: -11px;">9-22</span></li>
+									<li class="liNews"><a href="https://jjxy.jju.edu.cn/info/1008/1941.htm" style="color: #333;">继续教育学院召开新学期教职工大会 </a><span style="display: block;position: absolute; right: 570px; bottom: -65px;">9-22</span></li>
+									<li class="liNews"><a href="https://jjxy.jju.edu.cn/info/1008/1921.htm" style="color: #333;">继续教育学院2022级暑期线上直播授课圆满… </a><span style="display: block;position: absolute; right: 570px; bottom: -115px;">9-22</span></li>
+									<li class="liNews"><a href="https://jjxy.jju.edu.cn/info/1003/1919.htm" style="color: #333;">重温革命历史 坚守初心使命——继续教育学… </a><span style="display: block;position: absolute; right: 570px; bottom: -167px;">9-22</span></li>
+									<li class="liNews"><a href="https://jjxy.jju.edu.cn/info/1008/1918.htm" style="color: #333;">继续教育学院开展校外教学点教学检查工作 </a><spanm style="display: block;position: absolute; right: 570px; bottom: -218px;">9-22</spanm></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+			</div>
+
+			<!--上为左部分 下为右部分-->
+
+				<!--学院通知-->
+			<div style="display: inline-block; float: left; width: 520px;">
+
+				<div style="text-align: left;width: 400px;height: 81px; border-bottom: #e2dcdc 1px solid;">
+					<div style="display: inline-block; line-height: 100px;" >
+						<a href="https://jjxy.jju.edu.cn/news/category-4.html" style="color:black; font-size: 18px">学院通知</a>
+					</div>
+					<div style="display: inline-block;color: #c0c0c0;font-size: 14px;">
+						NOTICE
+					</div >
+					<div style="display: inline-block;color: #c0c0c0;font-size: 14px;float: right;line-height: 100px;">
+						<a href="https://jjxy.jju.edu.cn/index/xytz.htm" style="color:#999;">MORE+</a>
+					</div>
+				</div>
+
+
+				<!--分割 上下部分-->
+
+				<div style="padding-top: 30px;">
+					<div style="display: block; width: 400px;height: 46px; margin-bottom: 23px;text-align: left; ">
+						<div style="text-align: left;display: block; float: left">
+							<div style="background-color: #edf5f5; width: 64px;height: 23px;text-align: center; color: #1c9da2">28</div>
+							<div style="background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/jianbian.jpg); width: 64px; line-height: 23px; color: white;">2022-09</div>
+						</div>
+
+						<div style="display: block;text-align: left;font-size: 16px; float: top;margin-left: 80px;">
+							<a  href="https://jjxy.jju.edu.cn/info/1009/1958.htm" style="width: 310px;height: 46px;font-size: 16px; ">九江学院继续教育学院关于2022级学生2022年第二学期教学工作安…</a>
+						</div>
+					</div>
+					<div style="display: block; width: 400px;height: 46px; margin-bottom: 23px;text-align: left; ">
+						<div style="text-align: left;display: block; float: left">
+							<div style="background-color: #edf5f5; width: 64px;height: 23px;text-align: center; color: #1c9da2">28</div>
+							<div style="background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/jianbian.jpg); width: 64px; line-height: 23px; color: white;">2022-09</div>
+						</div>
+
+						<div style="display: block;text-align: left;font-size: 16px; float: top;margin-left: 80px;">
+							<a  href="https://jjxy.jju.edu.cn/info/1009/1958.htm" style="width: 310px;height: 46px;font-size: 16px; ">九江学院2022年成人高等学历教育招生专业</a>
+						</div>
+					</div>
+					<div style="display: block; width: 400px;height: 46px; margin-bottom: 23px;text-align: left; ">
+						<div style="text-align: left;display: block; float: left">
+							<div style="background-color: #edf5f5; width: 64px;height: 23px;text-align: center; color: #1c9da2">28</div>
+							<div style="background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/jianbian.jpg); width: 64px; line-height: 23px; color: white;">2022-09</div>
+						</div>
+
+						<div style="display: block;text-align: left;font-size: 16px; float: top;margin-left: 80px;">
+							<a  href="https://jjxy.jju.edu.cn/info/1009/1958.htm" style="width: 310px;height: 46px;font-size: 16px; ">九江学院2022年成人高等学历教育招生简章</a>
+						</div>
+					</div>
+					<div style="display: block; width: 400px;height: 46px; margin-bottom: 23px;text-align: left; ">
+						<div style="text-align: left;display: block; float: left">
+							<div style="background-color: #edf5f5; width: 64px;height: 23px;text-align: center; color: #1c9da2">28</div>
+							<div style="background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/jianbian.jpg); width: 64px; line-height: 23px; color: white;">2022-09</div>
+						</div>
+
+						<div style="display: block;text-align: left;font-size: 16px; float: top;margin-left: 80px;">
+							<a  href="https://jjxy.jju.edu.cn/info/1009/1958.htm" style="width: 310px;height: 46px;font-size: 16px; ">江西省2022年成人高校招生考试政策问答</a>
+						</div>
+					</div>
+					<div style="display: block; width: 400px;height: 46px; margin-bottom: 23px;text-align: left; ">
+						<div style="text-align: left;display: block; float: left">
+							<div style="background-color: #edf5f5; width: 64px;height: 23px;text-align: center; color: #1c9da2">28</div>
+							<div style="background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/jianbian.jpg); width: 64px; line-height: 23px; color: white;">2022-09</div>
+						</div>
+
+						<div style="display: block;text-align: left;font-size: 16px; float: top;margin-left: 80px;">
+							<a  href="https://jjxy.jju.edu.cn/info/1009/1958.htm" style="width: 310px;height: 46px;font-size: 16px; ">江西省2022年成人高等学校招生简章</a>
+						</div>
+					</div>
+					<div style="display: block; width: 400px;height: 46px; margin-bottom: 23px;text-align: left; ">
+						<div style="text-align: left;display: block; float: left">
+							<div style="background-color: #edf5f5; width: 64px;height: 23px;text-align: center; color: #1c9da2">28</div>
+							<div style="background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/jianbian.jpg); width: 64px; line-height: 23px; color: white;">2022-09</div>
+						</div>
+
+						<div style="display: block;text-align: left;font-size: 16px; float: top;margin-left: 80px;">
+							<a  href="https://jjxy.jju.edu.cn/info/1009/1958.htm" style="width: 310px;height: 46px;font-size: 16px; ">关于印发《江西省2022年成人高等学校招生工作规定》的通知</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+		<!--第四部分 最后的图片转盘-->
+
+		<div style="background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/fenmaobg_02.jpg); ">
+			<!--文字部分-->
+			<div style="padding-top: 65px;">
+				<div style="text-align: center; color: white;">
+					<h1>校园风貌</h1>
+					<p>Campus Style</p>
+				</div>
+			</div>
+			<!--图片部分-->
+			<div style="margin-top: 50px;">
+				<div style="height: 270.4px;">
+					<ul style="position: relative;list-style: none;  ">
+
+						<li id="liImg1" style="position:relative; width: 15%; left: -7.5%; top: 55%;">
+							<a>
+								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141509897263.jpg">
+							</a>
+						</li>
+
+
+
+						<li id="liImg2" style="position:relative; width: 15%; top: 55%; left: 75%;">
+							<a>
+								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141458622872.jpg">
+							</a>
+						</li>
+
+
+
+
+						<li id="liImg3" style="position:relative; width: 15%; top: 55%;">
+							<a>
+								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614145148208.jpg">
+							</a>
+						</li>
+
+
+
+
+
+						<li id="liImg4" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141443895302.jpg">
+							</a>
+						</li>
+
+
+
+
+
+
+						<li id="liImg5" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141434519692.jpg">
+							</a>
+						</li>
+
+
+
+
+
+
+						<li id="liImg6" style="position:relative; width: 15%;">
+						 	<a>
+								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141427161580.jpg">
+							</a>
+						</li>
+
+
+
+
+
+
+						<li id="liImg7" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141418696288.jpg">
+							</a>
+						</li>
+
+
+
+
+
+
+						<li id="liImg8" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141410918609.jpg">
+							</a>
+						</li>
+
+
+
+
+
+
+						<li id="liImg9" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614140371117.jpg">
+							</a>
+						</li>
+
+
+
+
+
+						<li id="liImg10" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141355254878.jpg">
+							</a>
+						</li>
+
+
+
+
+
+
+						<li id="liImg11" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614134864785.jpg">
+							</a>
+						</li>
+
+
+
+
+
+
+
+
+						<li id="liImg12" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%;display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141339760359.jpg">
+							</a>
+						</li>
+
+
+
+						<li id="liImg13" style="position:relative; width: 15%;">
+							<a>
+								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614132740750.jpg">
+							</a>
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!--网站脚部 底部-->
+
+		<div style="background-color: #333 ;padding-top: 20px;padding-bottom: 20px;">
+			<div style="line-height: 36px; color: white; text-align: center;">
+				<a style="color: white; font-size: 14px;" href="https://jjxy.jju.edu.cn/index.htm">首页</a>
+				&nbsp|&nbsp
+				<a style="color: white; font-size: 14px;" href="https://jjxy.jju.edu.cn/xygk1.htm">学院概况</a>
+				&nbsp|&nbsp
+				<a style="color: white; font-size: 14px;" href="https://jjxy.jju.edu.cn/dqgz.htm">党群工作</a>
+				&nbsp|&nbsp
+				<a style="color: white; font-size: 14px;" href="https://jjxy.jju.edu.cn/gzzd.htm">规章制度</a>
+				&nbsp|&nbsp
+				<a style="color: white; font-size: 14px;" href="https://jjxy.jju.edu.cn/xljy.htm">学历教育</a>
+				&nbsp|&nbsp
+				<a style="color: white; font-size: 14px;" href="https://jjxy.jju.edu.cn/pxjy.htm">培训教育</a>
+				&nbsp|&nbsp
+				<a style="color: white; font-size: 14px;" href="https://jjxy.jju.edu.cn/lxwm.htm">联系我们</a>
+				&nbsp|&nbsp
+				<a style="color: white; font-size: 14px;" href="http://jjxy.web2.superchutou.com/#/login">学习平台</a>
+			</div>
+
+
+			<div style="text-align: center;color:white;">
+				<p>
+					招生热线：0792-8567359
+					学校地址：江西省九江市浔阳东路320号
+					Copyright © 2018 九江学院继续教育学院 All Right Reserved
+				</p>
+
+			</div>
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<!--第一个图片转js-->
+		<script>
+			var li1=document.getElementById("li1");
+			var li2=document.getElementById("li2");
+			var li3=document.getElementById("li3");
+			var li4=document.getElementById("li4");
+			var arr=[true,false,false,false];
+			var boolRun=true;/*控制图片在鼠标在标签上 是否 移动*/
+			/*图片切换函数*/
+			function imgChange(e){
+					boolRun=false;/*不要移动*/
+					var event=e|| window.event;
+					var target=event.target|| event.srcElement;
+					if (target.matches("li#li1.liNum")) {
+						document.getElementById("img1").style.display = "inline-block";
+						document.getElementById("img2").style.display = "none";
+						document.getElementById("img3").style.display = "none";
+						document.getElementById("img4").style.display = "none";
+						arr[0] = true;
+						arr[1] = false;
+						arr[2] = false;
+						arr[3] = false;
+					}
+					else if (target.matches("li#li2.liNum")){
+						document.getElementById("img1").style.display = "none";
+						document.getElementById("img2").style.display = "inline-block";
+						document.getElementById("img3").style.display = "none";
+						document.getElementById("img4").style.display = "none";
+						arr[0] = false;
+						arr[1] = true;
+						arr[2] = false;
+						arr[3] = false;
+					}
+					else if (target.matches("li#li3.liNum")){
+						document.getElementById("img1").style.display = "none";
+						document.getElementById("img2").style.display = "none";
+						document.getElementById("img3").style.display = "inline-block";
+						document.getElementById("img4").style.display = "none";
+						arr[0] = false;
+						arr[1] = false;
+						arr[2] = true;
+						arr[3] = false;
+					}
+					else{
+						document.getElementById("img1").style.display = "none";
+						document.getElementById("img2").style.display = "none";
+						document.getElementById("img3").style.display = "none";
+						document.getElementById("img4").style.display = "inline-block";
+						arr[0] = false;
+						arr[1] = false;
+						arr[2] = false;
+						arr[3] = true;
+						}
+
+			}
+			/*图片是否可切换控制函数*/
+			function checkRun(){
+				boolRun=true;/*可以移动*/
+			}
+			/*鼠标移动进li 标签 图片不可切换*/
+			li1.addEventListener("mouseover",imgChange);
+			li2.addEventListener("mouseover", imgChange);
+			li3.addEventListener("mouseover", imgChange);
+			li4.addEventListener("mouseover",imgChange);
+			/*鼠标移出li 标签 图片可以切换*/
+			li1.addEventListener("mouseout",checkRun);
+			li2.addEventListener("mouseout",checkRun);
+			li3.addEventListener("mouseout",checkRun);
+			li4.addEventListener("mouseout",checkRun);
+			/*定时转图片 函数*/
+			setInterval(
+					function() {
+						if(boolRun==false){return;}/*这里的意思是 图片不应该自动换*/
+						let num;
+						for (var i = 0; i <arr.length;i++ ) {
+							if (arr[i]==true) {
+								num=i;
+							}
+						}
+
+						document.getElementById("img1").style.display = num==0? "inline-block":"none";
+						document.getElementById("img2").style.display = num==1? "inline-block":"none";
+						document.getElementById("img3").style.display = num==2? "inline-block":"none";
+						document.getElementById("img4").style.display = num==3? "inline-block":"none";
+
+
+
+						arr[num]=false;
+						num==3?arr[0] = true:arr[num+1]=true;
+					},2000
+			)
+
+		</script>
+		<!--以下是第二个图片的转的js-->
+		<script>
+			var li5=document.getElementById("li5");
+			var li6=document.getElementById("li6");
+			var li7=document.getElementById("li7");
+			var li8=document.getElementById("li8");
+			var li9=document.getElementById("li9");
+			var arrBottom=[true,false,false,false,false];
+			var boolRunBottom=true;/*控制图片在鼠标在标签上 是否 移动*/
+			/*图片切换函数*/
+			function imgChangeBottom(e){
+				boolRun=false;/*不要移动*/
+				var event=e|| window.event;
+				var target=event.target|| event.srcElement;
+				if (target.matches("li#li5.liNumBottom")) {
+					document.getElementById("img5").style.display = "inline-block";
+					document.getElementById("img6").style.display = "none";
+					document.getElementById("img7").style.display = "none";
+					document.getElementById("img8").style.display = "none";
+					document.getElementById("img9").style.display = "none";
+					arrBottom[0] = true;
+					arrBottom[1] = false;
+					arrBottom[2] = false;
+					arrBottom[3] = false;
+					arrBottom[4] = false;
+				}
+				else if (target.matches("li#li6.liNumBottom")){
+					document.getElementById("img5").style.display = "none";
+					document.getElementById("img6").style.display = "inline-block";
+					document.getElementById("img7").style.display = "none";
+					document.getElementById("img8").style.display = "none";
+					document.getElementById("img9").style.display = "none";
+					arrBottom[0] = false;
+					arrBottom[1] = true;
+					arrBottom[2] = false;
+					arrBottom[3] = false;
+					arrBottom[4] = false;
+				}
+				else if (target.matches("li#li7.liNumBottom")){
+					document.getElementById("img5").style.display = "none";
+					document.getElementById("img6").style.display = "none";
+					document.getElementById("img7").style.display = "inline-block";
+					document.getElementById("img8").style.display = "none";
+					document.getElementById("img9").style.display = "none";
+					arrBottom[0] = false;
+					arrBottom[1] = false;
+					arrBottom[2] = true;
+					arrBottom[3] = false;
+					arrBottom[4] = false;
+				}
+				else if(target.matches("li#li8.liNumBottom")){
+					document.getElementById("img5").style.display = "none";
+					document.getElementById("img6").style.display = "none";
+					document.getElementById("img7").style.display = "none";
+					document.getElementById("img8").style.display = "inline-block";
+					document.getElementById("img9").style.display = "none";
+					arrBottom[0] = false;
+					arrBottom[1] = false;
+					arrBottom[2] = false;
+					arrBottom[3] = true;
+					arrBottom[4] = false;
+				}
+
+				else {
+					document.getElementById("img5").style.display = "none";
+					document.getElementById("img6").style.display = "none";
+					document.getElementById("img7").style.display = "none";
+					document.getElementById("img8").style.display = "none";
+					document.getElementById("img9").style.display = "inline-block";
+					arrBottom[0] = false;
+					arrBottom[1] = false;
+					arrBottom[2] = false;
+					arrBottom[3] = false;
+					arrBottom[4] = true;
+
+				}
+
+			}
+			/*图片是否可切换控制函数*/
+			function checkRunBottom(){
+				boolRunBottom=true;/*可以移动*/
+			}
+			/*鼠标移动进li 标签 图片不可切换*/
+			li5.addEventListener("mouseover",imgChangeBottom);
+			li6.addEventListener("mouseover", imgChangeBottom);
+			li7.addEventListener("mouseover", imgChangeBottom);
+			li8.addEventListener("mouseover",imgChangeBottom);
+			li9.addEventListener("mouseover",imgChangeBottom);
+			/*鼠标移出li 标签 图片可以切换*/
+			li5.addEventListener("mouseout",checkRunBottom);
+			li6.addEventListener("mouseout",checkRunBottom);
+			li7.addEventListener("mouseout",checkRunBottom);
+			li8.addEventListener("mouseout",checkRunBottom);
+			li9.addEventListener("mouseout",checkRunBottom);
+			/*定时转图片 函数*/
+			setInterval(
+					function() {
+						if(boolRunBottom==false){return;}/*这里的意思是 图片不应该自动换*/
+						let num;
+						for (var i = 0; i <arrBottom.length;i++ ) {
+							if (arrBottom[i]==true) {
+								num=i;
+							}
+						}
+
+						document.getElementById("img5").style.display = num==0? "inline-block":"none";
+						document.getElementById("img6").style.display = num==1? "inline-block":"none";
+						document.getElementById("img7").style.display = num==2? "inline-block":"none";
+						document.getElementById("img8").style.display = num==3? "inline-block":"none";
+						document.getElementById("img9").style.display = num==4? "inline-block":"none";
+
+
+						arrBottom[num]=false;
+						num==4?arrBottom[0] = true:arrBottom[num+1]=true;
+					},2000
+			)
+
+		</script>
+
+	</body>
+</html>
