@@ -98,7 +98,150 @@
 
 			}
 
+			div div ul#ulImagBox li{
+				transition:all  0.5s linear ;
+			}
 			
+			.moveimg1{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				left: -7.5%;
+				top: 55%;
+				opacity: 0.5;
+				z-index: 0;
+			
+			}
+			.moveimg2{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				left: 10%;
+				top: 55%;
+				z-index: 0;
+			}
+
+			.moveimg3{/*li 标签*/
+				position:absolute;
+				width: 40%;
+				left: 30%;
+				top: 0%;
+				z-index: 0;
+			}
+
+			.moveimg4{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				left: 75%;
+				top: 55%;
+				z-index: 0;
+			}
+
+			.moveimg5{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				opacity: 0.5;
+				left: 92.5%;
+				top: 55%;
+				z-index: 0;
+				
+			}
+
+			.moveimg6{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				left: -7.5%;
+				top: 55%;
+				opacity: 0.5;
+				z-index: -1;
+
+			}
+			.moveimg7{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				left: 10%;
+				top: 55%;
+				z-index: -2;
+
+			}
+
+
+			.moveimg8{/*li 标签*/
+				position:absolute;
+				width: 40%;
+				left: 30%;
+				top: 0%;
+				z-index: -3;
+
+			}
+			.moveimg9{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				left: 75%;
+				top: 55%;
+				z-index: -4;
+
+			}
+
+
+
+
+
+
+			.moveimg10{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				opacity: 0.5;
+				left: 92.5%;
+				top: 55%;
+				z-index: -5;
+
+			}
+			.moveimg11{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				left: -7.5%;
+				top: 55%;
+				opacity: 0.5;
+				z-index: -6;
+
+			}
+
+
+
+
+			.moveimg12{/*li 标签*/
+				position:absolute;
+				width: 15%;
+				left: 10%;
+				top: 55%;
+				z-index: -7;
+
+			}
+			.moveimg13{/*li 标签*/
+				position:absolute;
+				width: 40%;
+				left: 30%;
+				top: 0%;
+				z-index: -8;
+
+			}
+
+
+			.next{
+				background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/pro-btn_01.jpg);
+				display: block;
+				float: left;
+				width: 30px;
+				height: 40px;
+				cursor: pointer;
+			}
+			.rear{
+				background-image: url(https://jjxy.jju.edu.cn/dfiles/11268/images/pro-btn_03.jpg);
+				display: block;
+				float: right;
+				width: 30px;
+				height: 40px;
+				cursor: pointer;
+			}
 		</style>
 
 
@@ -352,10 +495,10 @@
 			</div>
 			<!--图片部分-->
 			<div style="margin-top: 50px;">
-				<div style="height: 270.4px;">
-					<ul style="position: relative;list-style: none;  ">
+				<div style="height: 432px;">
+					<ul id="ulImagBox" style="position: relative;list-style: none; height: 100%; overflow:hidden; ">
 
-						<li id="liImg1" style="position:relative; width: 15%; left: -7.5%; top: 55%;">
+						<li id="liImg1" class="moveimg1" >
 							<a>
 								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141509897263.jpg">
 							</a>
@@ -363,7 +506,7 @@
 
 
 
-						<li id="liImg2" style="position:relative; width: 15%; top: 55%; left: 75%;">
+						<li id="liImg2" class="moveimg2">
 							<a>
 								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141458622872.jpg">
 							</a>
@@ -372,7 +515,7 @@
 
 
 
-						<li id="liImg3" style="position:relative; width: 15%; top: 55%;">
+						<li id="liImg3" class="moveimg3">
 							<a>
 								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614145148208.jpg">
 							</a>
@@ -382,7 +525,7 @@
 
 
 
-						<li id="liImg4" style="position:relative; width: 15%;">
+						<li id="liImg4" class="moveimg4" >
 							<a>
 								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141443895302.jpg">
 							</a>
@@ -393,7 +536,7 @@
 
 
 
-						<li id="liImg5" style="position:relative; width: 15%;">
+						<li id="liImg5" class="moveimg5">
 							<a>
 								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141434519692.jpg">
 							</a>
@@ -404,9 +547,9 @@
 
 
 
-						<li id="liImg6" style="position:relative; width: 15%;">
+						<li id="liImg6" class="moveimg6" >
 						 	<a>
-								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141427161580.jpg">
+								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141427161580.jpg">
 							</a>
 						</li>
 
@@ -415,9 +558,9 @@
 
 
 
-						<li id="liImg7" style="position:relative; width: 15%;">
+						<li id="liImg7" class="moveimg7" >
 							<a>
-								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141418696288.jpg">
+								<img style="width: 100%; " src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141418696288.jpg">
 							</a>
 						</li>
 
@@ -426,9 +569,9 @@
 
 
 
-						<li id="liImg8" style="position:relative; width: 15%;">
+						<li id="liImg8" class="moveimg8">
 							<a>
-								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141410918609.jpg">
+								<img style="width: 100%; " src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141410918609.jpg">
 							</a>
 						</li>
 
@@ -437,9 +580,9 @@
 
 
 
-						<li id="liImg9" style="position:relative; width: 15%;">
+						<li id="liImg9" class="moveimg9">
 							<a>
-								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614140371117.jpg">
+								<img style="width: 100%; " src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614140371117.jpg">
 							</a>
 						</li>
 
@@ -447,9 +590,9 @@
 
 
 
-						<li id="liImg10" style="position:relative; width: 15%;">
+						<li id="liImg10" class="moveimg10">
 							<a>
-								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141355254878.jpg">
+								<img style="width: 100%; " src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141355254878.jpg">
 							</a>
 						</li>
 
@@ -458,9 +601,9 @@
 
 
 
-						<li id="liImg11" style="position:relative; width: 15%;">
+						<li id="liImg11" class="moveimg11">
 							<a>
-								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614134864785.jpg">
+								<img style="width: 100%; " src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614134864785.jpg">
 							</a>
 						</li>
 
@@ -471,19 +614,31 @@
 
 
 
-						<li id="liImg12" style="position:relative; width: 15%;">
+						<li id="liImg12" class="moveimg12">
 							<a>
-								<img style="width: 100%;display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141339760359.jpg">
+								<img style="width: 100%;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/20181026141339760359.jpg">
 							</a>
 						</li>
 
 
 
-						<li id="liImg13" style="position:relative; width: 15%;">
+						<li id="liImg13" class="moveimg13">
 							<a>
-								<img style="width: 100%; display: none;" src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614132740750.jpg">
+								<img style="width: 100%; " src="https://jjxy.jju.edu.cn/dfiles/11268/upload/2018102614132740750.jpg">
 							</a>
 						</li>
+
+						<!-- 控制前进 下一张图片-->
+						<div class="control_move" style="position :absolute;width: 741px;left: 25.5%;top: 190px;">
+							<section >
+								<i class="next"></i>
+							</section>
+
+							<section >
+								<i class="rear"></i>
+							</section>
+
+						</div>
 
 					</ul>
 
@@ -761,6 +916,25 @@
 						num==4?arrBottom[0] = true:arrBottom[num+1]=true;
 					},2000
 			)
+
+		</script>
+
+
+		<!--最后一个图片过度轮转 js-->
+		<script>
+			var imagBox=document.getElementById("ulImagBox");//ul
+			var imagChildren=imagBox.children;//li
+			var classImagName=["moveimg1","moveimg2","moveimg3","moveimg4","moveimg5","moveimg6","moveimg7","moveimg8","moveimg9","moveimg10","moveimg11","moveimg12","moveimg13"];
+
+			function autoNextImag() {
+				var lastValue = classImagName.pop();  //删数值最后一个元素 ，并返回这个值 每个li 标签的属性
+				classImagName.unshift(lastValue);
+
+				for (var i = 0; i < classImagName.length;i++) {
+					imagChildren[i].className=classImagName[i];
+				}
+			}
+		setInterval(autoNextImag,2000);
 
 		</script>
 
